@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - MusicHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<style>
+   .welcome-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        } 
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .options a {
+            margin: 10px;
+        }
+</style>
+<body>
+     <!-- Header Section -->
+     <header>
+        <div class="logo">🎵 MusicHub</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="loginSubmit" type="submit" class="btn-primary"  onclick="window.location.href='login.html';">Login</button>
+            <button id="signupSubmit" type="submit" class="btn-primary"  onclick="window.location.href='register.html';">Signup</button> 
+        </nav>
+    </header>
+    <!-- Welcome Section -->
+    <section id="welcome" class="welcome-container">
+        <div class="hero-content">
+            <h1>Welcome to MusicHub! </h1>
+            <p>Hi there! We’re thrilled to have you here. Dive into your favorite music and enjoy personalized playlists.</p>
+            
+        </div>
+            
+           
+              <div class="options">
+                <a href="library.html">🎵 Explore Music Library</a>
+                <a href="profile.html">👤 View Profile</a>
+                <a href="logout.html">🚪 Logout</a>
+            </div>
+     
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Follow Us:</h3>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </div>
+        <div>
+            <p>&copy; 2024 Made by Mercy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

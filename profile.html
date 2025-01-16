@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - MusicHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<style>
+    /* Profile Avatar */
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Profile Content Sections */
+.profile-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.user-info, .user-playlists, .recently-played {
+    flex: 1;
+    height: 400px;
+    min-width: 400px;
+    margin: 10px;
+    background: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+/* Playlist and Song Items */
+.playlist {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.song {
+    display: flex;
+    align-items: ;
+    background-color: blueviolet;
+    margin: 10px 0;
+}
+
+.playlist img, .song img {
+    width: 90px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.user-info button {
+    background-color: green;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+</style>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">🎵 MusicHub</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile" class="hero">
+        <div class="profile-header">
+            <img src="media/user.jpg" alt="User Avatar" class="profile-avatar" style="height: 70px; width: 170px;">
+            <h1>Babirye Mercy</h1>
+            <p>Music Lover | Playlist Creator | Premium Member</p>
+        </div>
+        <div class="profile-content">
+            <!-- User Info -->
+            <div class="user-info">
+                <h2>Account Details</h2>
+                <p><strong>Email:</strong> mercyb652@gmail.com</p>
+                <p><strong>Subscription:</strong> Premium</p>
+                <p><strong>Member Since:</strong> January 2022</p>
+                <button id="edit-profileSubmit" type="submit" class="btn-primary"  onclick="window.location.href='edit_profile.html';">Edit Profile</button>
+            </div>
+
+            <!-- User Playlists -->
+            <div class="user-playlists">
+                <h2>Your Playlists</h2>
+                <div class="playlist">
+                    <img src="media/playlist1.jpeg" alt="Playlist Cover">
+                    <h3>Praise</h3>
+                </div>
+                <div class="playlist">
+                    <img src="media/playlist2.avif" alt="Playlist Cover">
+                    <h3>Worship</h3>
+                </div>
+                <div class="playlist">
+                    <img src="media/playlist3.webp" alt="Playlist Cover">
+                    <h3>Favorites</h3>
+                </div>
+            </div>
+
+            <!-- Recently Played -->
+            <div class="recently-played">
+                <h2>Recently Played</h2>
+                <div class="song" >
+                    <img src="media/songcover2.jpeg" alt="Playlist Cover">
+                    <p>Yes Sir - Ada</p>
+                </div>
+                <div class="song" >
+                    <img src="media/songcover3.jpeg" alt="Playlist Cover">
+                    <p>Break Every Chains - Tasha</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Follow Us:</h3>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </div>
+        <div>
+            <p>&copy; 2024 Made by Mercy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

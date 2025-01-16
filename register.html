@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | MusicHub</title>
+    <link rel="stylesheet" href="playlist.css">
+    
+</head>
+<body>
+    <header style=" display: flex; justify-content: space-between; align-items: left;
+   color: white;
+    padding: 10px 20px;" >
+        <div class="logo"> 🎵 MusicHub</div> 
+        <nav>
+            <ul  style="list-style: none; font-size: 2rem; display: flex; gap: 20px;  text-decoration: none;
+            color: white; font-size: 2rem; float: left; margin-left: 2rem;" >
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="registration">
+            <h1>Create Your Account</h1>
+            <form action="register.php" method="POST" id="registrationForm">
+                <!-- User ID -->
+                <div class="form-group">
+                    <label for="userid">USER ID</label>
+                    <input type="text" id="userid" name="userid" placeholder="Enter your user id" required>
+                </div>
+
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+                
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                </div>
+                
+                <!-- Terms and Conditions -->
+                <div class="form-group">
+                    <input type="checkbox" id="terms" nasme="terms" required>
+                    <label for="terms">I agree to the <a href="terms.html">Terms and Conditions</a></label>
+                </div>
+                
+                <!-- Submit Button -->
+                <button id="registerSubmit" type="submit" class="btn-primary"  onclick="window.location.href='home.html';">Register</button>
+            
+            </form>
+        </section>
+    </main>
+
+<!--footer-->
+    <footer>
+        <div>
+            <h3>Follow Us:</h3>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </div>
+        <div>
+            <p>&copy; 2024 Made by Mercy. All rights reserved.</p>
+        </div>
+       
+    </footer>
+</body>
+</html>

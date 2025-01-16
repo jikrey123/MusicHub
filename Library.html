@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">🎵 MusicHub</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="btn-primary">Sign Up</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Favorite Tune</h1>
+            <p>Explore, stream, and enjoy millions of tracks curated just for you.</p>
+            <button class="btn-secondary"><a href="#library" style="text-decoration: none; color: white;">Go to Library</a></button>
+           <div id="search-results" aria-live="polite">
+            <form id="search-form">
+                <input 
+                    id="search-bar" 
+                    type="text" placeholder="Search songs..."  name="query"  aria-label="Search songs"  style="width: 80%; padding: 10px;"
+                >
+                <button 
+                    type="submit"  style="width: 10%; background: #2196F3; color: white; height: 40px;"
+                >
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+            
+            </div>
+            
+        </div>
+    </section>
+
+
+    
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>MusicHub is a platform where you can explore, discover, and enjoy a wide range of music genres. We aim to connect music enthusiasts with their favorite tunes.</p>
+        
+        <div>
+        <h2>🎶 Music Library</h2>
+        <div id="music-library"></div>
+       
+    </section>
+
+    <!-- Music Library Section -->
+    <section id="library" class="music-library">
+        
+        <div class="song-collection">
+            <div class="song">
+                <img src="media/mercy.webp" alt="Album Art">
+                <h3>Excess love</h3>
+                <p>🎤 Artist: Mercy Chinwo</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/excess love.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/judi.webp" alt="Album Art">
+                <h3>More Than Gold</h3>
+                <p>🎤 Artist: Judikay</p>
+                <p>🎵 Genre: Rock </p>
+                <audio controls>
+                    <source src="media/morethangold.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/bliss.webp" alt="Album Art">
+                <h3>Too Faithful</h3>
+                <p>🎤 Artist: Moses Bliss</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/MosesBlissTooFaithful.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/judith.jpeg" alt="Album Art">
+                <h3>Afuga</h3>
+                <p>🎤 Artist: Judith Babirye</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/afuga.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/wilson1.jpeg" alt="Album Art">
+                <h3>Katonda</h3>
+                <p>🎤 Artist: Wilson Bugembe</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/Katonda.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/sinach.webp" alt="Album Art">
+                <h3>Way Maker</h3>
+                <p>🎤 Artist: Sinach</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/waymaker.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/guc.webp" alt="Album Art">
+                <h3>All that Matters</h3>
+                <p>🎤 Artist: Guc</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/Allthatmatters.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/Ada.webp" alt="Album Art">
+                <h3>Everything</h3>
+                <p>🎤 Artist: Ada Ehi</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/Ada-Ehi-Everything (1).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song">
+                <img src="media/nath.webp" alt="Album Art">
+                <h3>Jesus Iye</h3>
+                <p>🎤 Artist: Nathaniel</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/jesusiye.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="/shape_of_you.mp3" download="Shape_of_You_Ed_Sheeran" class="btn-download"></a>
+            </div>
+            <div class="song">
+                <img src="media/tasha.jpg" alt="Album Art">
+                <h3>Break Every Chain</h3>
+                <p>🎤 Artist:Tasha Cobbs</p>
+                <p>🎵 Genre: Gospel</p>
+                <audio controls>
+                    <source src="media/breakeverychain.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+           
+            <!-- Add more songs as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Follow Us:</h3>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </div>
+        <div>
+            <p>&copy; 2024 Made by Mercy. All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+    
+         <script src="script.js"></script>
+</body>
+</html>

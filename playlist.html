@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Playlist | MusicHub</title>
+    <link rel="stylesheet" href="playlist.css">
+</head>
+<body>
+    <header style="background-color: white; display: flex; justify-content: space-between; align-items: left; color: white; padding: 10px 20px;">
+        <div class="logo"> 🎵 MusicHub</div> 
+        <nav>
+            <ul style="list-style: none; font-size: 2rem; display: flex; gap: 20px; text-decoration: none; color: white; font-size: 2rem;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="playlist-creator">
+            <h1>Create Your Playlist</h1>
+            <form id="playlistForm">
+                <!-- Playlist Name -->
+                <div class="form-group">
+                    <label for="playlistName">Playlist Name</label>
+                    <input type="text" id="playlistName" name="playlistName" placeholder="Enter playlist name" required>
+                </div>
+                <!-- Add Song -->
+                <div class="form-group">
+                    <label for="songName">Song Name</label>
+                    <input type="text" id="songName" name="songName" placeholder="Enter song name">
+                </div>
+                <button type="button" id="addSongButton">Add Song</button>
+                <!-- Song List -->
+                <ul id="songList"></ul>
+                <!-- Save Playlist -->
+                <button type="submit">Save Playlist</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Follow Us:</h3>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </div>
+        <div>
+            <p>&copy; 2024 Made by Mercy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="playlist.js"></script>
+</body>
+</html>

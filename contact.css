@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: ;
+    color: green;
+    padding: 10px 20px;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #159943;
+}
+header nav .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+header .btn-primary {
+    background: green;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    border: 2px solid green;
+    padding: 15px 13px;
+    font-size: 15px;
+    background: green;
+    font-weight: 600;
+
+
+}
+
+
+.contact-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-section p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #159943;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #333;
+}
+
+.contact-info p {
+    color: #555;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #1db954;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicHub</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">🎵 MusicHub</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+            <button id="loginSubmit" type="submit" class="btn-primary"  onclick="window.location.href='login.html';">Login</button>
+            <button id="SignupSubmit" type="submit" class="btn-primary"  onclick="window.location.href='register.html';">Signup</button>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to MusicHub</h1>
+            <p>MusicHub is your ultimate music streaming destination. Explore millions of songs, create playlists, and enjoy personalized recommendations tailored to your taste. Stream and discover millions of songs from your favorite artists.</p>
+           
+        </div>
+
+        
+        <div class="hero-images">
+            <img src="media/music.avif" alt="Music" class="cascade-image">
+            <img src="media/dj.webp" alt="DJ" class="cascade-image">
+            <img src="media/rock.webp" alt="Rock Band" class="cascade-image">
+            
+        </div>
+    </section>
+  
+
+    <section >
+        <div class="features" >
+            <div class="feature">
+                <img src="media/discover.png" alt="Discover Icon">
+                <p>Discover millions of songs</p>
+            </div>
+            <div class="feature">
+                <img src="media/playlist.png" alt="Playlist Icon">
+                <p>Create and share playlists</p>
+            </div>
+            <div class="feature">
+                <img src="media/offline.jpeg" alt="Offline Icon">
+                <p>Listen offline</p>
+            </div>
+            <div class="feature">
+                <img src="media/recomend.png" alt="Recommendations Icon">
+                <p>Personalized recommendations</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured">
+        <h2  style="background-color: green; ">Trending Now</h2>
+        <div class="carousel">
+            <div class="song">
+                <img src="media/Ada.webp" alt="Album Cover">
+                <h3>Everything</h3>
+                <p>Ada Ehi</p>
+                <audio controls>
+                    <source src="media/everything (2).mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/mercy.webp" alt="Album Cover">
+                <h3>Excess love</h3>
+                <p>Mercy Chinwo</p>
+                <audio controls>
+                    <source src="media/excesslove.mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/bliss.webp" alt="Album Cover">
+                <h3>Too Faithful</h3>
+                <p>Moses Bliss</p>
+                <audio controls >
+                    <source src="media/Too_faithful.mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/sinach.webp" alt="Album Cover">
+                <h3>Way Maker</h3>
+                <p>Sinach</p>
+                <audio controls >
+                    <source src="media/waymaker.mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/nath.webp" alt="Album Cover">
+                <h3>Too Good</h3>
+                <p>Nathaniel Bassey</p>
+                <audio controls >
+                    <source src="media/Too_Good.mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/judi.webp" alt="Album Cover">
+                <h3>More Than Gold</h3>
+                <p>Judikay</p>
+                <audio controls >
+                    <source src="media/More_than_gold.mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/guc.webp" alt="Album Cover">
+                <h3>All That Matters</h3>
+                <p>Guc</p>
+                <audio controls>
+                    <source src="media/all_that_matters.mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/judith.jpeg" alt="Album Cover">
+                <h3>Yegwe Afuga</h3>
+                <p>Judith Babirye</p>
+                <audio controls>
+                    <source src="media/afuga.mp3" type="audio/ogg">
+                  </audio>
+            </div>
+            <div class="song">
+                <img src="media/wilson1.jpeg" alt="Album Cover">
+                <h3>Wanaaza</h3>
+                <p>Wilson Bugembe</p>
+                <audio controls>
+                    <source src="media/wanaaza.mp3" type="audio/ogg">
+                  </audio>
+                
+            </div>
+            <div class="song">
+                <img src="media/tasha.jpg" alt="Album Cover">
+                <h3>Break Every Chain</h3>
+                <p>Tasha Cobbs</p>
+                <audio controls>
+                    <source src="media/Tasha-Cobbs-Leonard-Break-Every-Chain-Live.mp3" type="audio/ogg">
+                  </audio>
+                
+            </div>
+            <div class="song">
+                <img src="media/Brian.webp" alt="Album Cover">
+                <h3>Oli Kumpi</h3>
+                <p>Brian Lubega</p>
+                <audio controls>
+                    <source src="media/Oli-Kumpi-You-are-Close-Brian-Lubega-(CeeNaija.com).mp3" type="audio/ogg">
+                  </audio>
+    
+            </div> <div class="song">
+                <img src="media/hillsong2.png" alt="Album Cover">
+                <h3>All My Days</h3>
+                <p>Hillsongs</p>
+                <audio controls>
+                    <source src="media/All-Of-My-Days-Hillsong-Worship-CeeNaija.com_.mp3" type="audio/ogg">
+                  </audio>
+                
+            </div> <div class="song">
+                <img src="media/maverick.jpeg" alt="Album Cover">
+                <h3>Broken Melodies</h3>
+                <p>Maverick City</p>
+                <audio controls>
+                    <source src="media/Maverick_City_Music_-_Broken_Melodies_CeeNaija.com_.mp3" type="audio/ogg">
+                  </audio>
+                
+            </div> <div class="song">
+                <img src="media/chris.jpeg" alt="Album Cover">
+                <h3>Here Iam To Worship</h3>
+                <p>Chris Tomlin</p>
+                <audio controls>
+                    <source src="media/Chris_Tomlin_-_Here_I_am_to_Worship_CeeNaija.com_.mp3" type="audio/ogg">
+                  </audio>
+                
+            </div> <div class="song">
+                <img src="media/steve.jpeg" alt="Album Cover">
+                <h3>Gof of Wonders</h3>
+                <p>Steve Crown</p>
+                <audio controls>
+                    <source src="media/Steve-Crown-God-Of-Wonders-(CeeNaija.com).mp3" type="audio/ogg">
+                  </audio>
+                
+            </div>
+        </div> <div class="song">
+            <img src="media/john.jpeg" alt="Album Cover">
+            <h3>Mukama Mulungi</h3>
+            <p>John Marie</p>
+            <audio controls>
+                <source src="media/MUKAMA MULUNGI - JOHNMARIE AND DENIS  MUGERWA (gospel).mp3" type="audio/ogg">
+              </audio>
+        
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Follow Us:</h3>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </div>
+        
+        <div>
+            <p>&copy; 2024 Made by Mercy. All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
